@@ -1,4 +1,4 @@
-x="456.6"
+x="45"
 i=int(x)
 print(type(x))
 print(x)
