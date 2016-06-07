@@ -1,2 +1,2 @@
-f=open("readme.md",r)
+f=open("README.md",r)
 print(f.read())
