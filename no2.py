@@ -1,22 +1,22 @@
 #include<stdio.h> 
-main() 
+int main() 
 { 
-int no, rem, flag=0; 
-printf("\nEnter a Number: "); 
-scanf("%d",&no); 
-while(no>2) 
+int num, r, f=0; 
+ 
+scanf("%d",&num); 
+while(num>2) 
 { 
-rem=no%2; 
-if(rem==1) 
+r=num%2; 
+if(r==1) 
 { 
-flag=1; 
+f=1; 
 break; 
 } 
 else 
-no=no/2; 
+num=num/2; 
 } 
-if(flag==1) 
-printf("\nNo is not Power of two."); 
+if(f==1) 
+printf("\n Num is not Power of two."); 
 else 
-printf("\nNo is Power of two"); 
+printf("\n Num is Power of two"); 
 } 
